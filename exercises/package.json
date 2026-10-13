@@ -1,0 +1,15 @@
+{
+	"name": "stock-company-prep-exercises",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"test:solutions": "cross-env SOLUTIONS=1 vitest run"
+	},
+	"devDependencies": {
+		"cross-env": "^10.1.0",
+		"typescript": "^5.6.0",
+		"vitest": "^3.0.0"
+	}
+}
